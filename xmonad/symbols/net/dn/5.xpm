@@ -1,0 +1,25 @@
+/* XPM */
+static char* dn_xpm[] = {
+,   "16 16        3 1"
+
+,   "       c    none"
+,   "X      c #dadada"
+,   "O      c #585858"
+
+,   "                "
+,   "                "
+,   "  XXXXXXX X     "
+,   "          X     "
+,   "  XXXXXXX X     "
+,   "          X     "
+,   "  XXXXXXX X     "
+,   "          X     "
+,   "  OOOOOOO X     "
+,   "          X     "
+,   "       X  X  X  "
+,   "        X X X   "
+,   "         XXX    "
+,   "          X     "
+,   "                "
+,   "                "
+};

@@ -1,0 +1,25 @@
+/* XPM */
+static char* up_xpm[] = {
+,   "16 16        3 1"
+
+,   "       c    none"
+,   "X      c #87ff87"
+,   "O      c #585858"
+
+,   "                "
+,   "                "
+,   "     X          "
+,   "    XXX         "
+,   "   X X X        "
+,   "  X  X  X       "
+,   "     X          "
+,   "     X XXXXXXX  "
+,   "     X          "
+,   "     X XXXXXXX  "
+,   "     X          "
+,   "     X XXXXXXX  "
+,   "     X          "
+,   "     X XXXXXXX  "
+,   "                "
+,   "                "
+};

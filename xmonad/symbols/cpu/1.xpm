@@ -1,0 +1,25 @@
+/* XPM */
+static char* cpu_xpm[] = {
+,   "16 16        3 1"
+
+,   "       c    none"
+,   "X      c #dadada"
+,   "O      c    none"
+
+,   "                "
+,   "                "
+,   "  XXX  XX  XXX  "
+,   "  X          X  "
+,   "  X OOOOOOOO X  "
+,   "    OOOOOOOO    "
+,   "    OOOOOOOO    "
+,   "  X OOOOOOOO X  "
+,   "  X OOOOOOOO X  "
+,   "    OOOOOOOO    "
+,   "    OOOOOOOO    "
+,   "  X XXXXXXXX X  "
+,   "  X          X  "
+,   "  XXX  XX  XXX  "
+,   "                "
+,   "                "
+};

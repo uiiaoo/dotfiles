@@ -1,0 +1,32 @@
+Config
+    {   font = "xft:Meslo LG L DZ:Bold:size=10"
+    ,   position = TopSize C 100 40
+    ,   textOffset = 24
+    ,   commands =
+            [   Run StdinReader
+            ,   Run Date            "%a %b/%d/%y %T" "date" 10
+            ,   Run Com "/bin/sh"   [   "-c", "${HOME}/dotfiles/xmonad/scripts/fcitx.sh"   ] "ime" 5
+
+            ,   Run MultiCpu        [   "-t", "<ipat>"
+                                    ,   "--"
+                                    ,   "--load-icon-pattern", "<icon=cpu/%%.xpm/>"
+                                    ]   10
+            ,   Run Memory          [   "-t", "<usedipat>"
+                                    ,   "--"
+                                    ,   "--used-icon-pattern", "<icon=mem/%%.xpm/>"
+                                    ]   10
+            ,   Run Battery         [   "-t", "<leftipat>"
+                                    ,   "--"
+                                    ,   "--idle-icon-pattern", "<icon=bat/socket.xpm/>"
+                                    ]   10
+            ,   Run DynNetwork      [   "-t", "<txipat><rxipat>"
+                                    ,   "-W", "8"
+                                    ,   "-H", "999999"
+                                    ,   "-L", "500000"
+                                    ,   "--"
+                                    ,   "--tx-icon-pattern", "<icon=net/up/%%.xpm/>"
+                                    ,   "--rx-icon-pattern", "<icon=net/dn/%%.xpm/>"
+                                    ]   10
+            ]
+    ,   template = " %StdinReader%}{%ime% %multicpu% %memory% %battery% %dynnetwork%  <fc=,#02aedc> </fc>  %date%  "
+    }

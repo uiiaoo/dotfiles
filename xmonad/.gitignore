@@ -1,0 +1,7 @@
+*
+!*/
+!*.hs
+!*.sh
+!*.xbm
+!*.xpm
+!.gitignore

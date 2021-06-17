@@ -1,0 +1,11 @@
+#-----------------------------
+# # plugin manager
+#-----------------------------
+[[plugins]]
+repo = 'Shougo/dein.vim'
+
+#-----------------------------
+# # completion
+#-----------------------------
+[[plugins]]
+repo = 'Shougo/neosnippet-snippets'

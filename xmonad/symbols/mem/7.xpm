@@ -1,0 +1,25 @@
+/* XPM */
+static char* mem_xpm[] = {
+,   "16 16        3 1"
+
+,   "       c    none"
+,   "X      c #87ff87"
+,   "O      c    none"
+
+,   "                "
+,   "                "
+,   "   XX  XX  XX   "
+,   "                "
+,   "  XXXXXXXXXXXX  "
+,   "  X          X  "
+,   "  X XXXXXXXO X  "
+,   "  X XXXXXXXO X  "
+,   "  X XXXXXXXO X  "
+,   "  X XXXXXXXO X  "
+,   "  X          X  "
+,   "  XXXXXXXXXXXX  "
+,   "                "
+,   "   XX  XX  XX   "
+,   "                "
+,   "                "
+};

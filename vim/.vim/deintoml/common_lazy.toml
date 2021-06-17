@@ -1,0 +1,25 @@
+[[plugins]]
+repo        = 'Shougo/vimproc.vim'
+build       = 'make'
+on_source   = 'unite.vim'
+
+#-----------------------------
+# # color theme
+#-----------------------------
+[[plugins]]
+repo        = 'w0ng/vim-hybrid'
+on_event    = 'VimEnter'
+hook_source = '''
+    runtime $PLUGIN_VIM/hybrid.vim
+'''
+
+#-----------------------------
+# # completion
+#-----------------------------
+[[plugins]]
+repo        = 'Shougo/neosnippet.vim'
+depends     = 'neosnippet-snippets'
+on_i        = 1
+hook_source = '''
+    runtime $PLUGIN_VIM/neosnippet.vim
+'''

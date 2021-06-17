@@ -1,0 +1,23 @@
+#-----------------------------
+# # completion
+#-----------------------------
+[[plugins]]
+repo        = 'Shougo/deoplete.nvim'
+on_i        = 1
+hook_source = '''
+    runtime $PLUGIN_VIM/deoplete.nvim
+'''
+
+#-----------------------------
+# # unite
+#-----------------------------
+[[plugins]]
+repo        = 'Shougo/denite.nvim'
+on_cmd      = 'Denite'
+hook_add    = '''
+    nnoremap <silent> uf :<C-u>Denite<Space>file<CR>
+    nnoremap <silent> ub :<C-u>Denite<Space>buffer<CR>
+'''
+hook_source = '''
+    runtime $PLUGIN_VIM/denite.nvim
+'''

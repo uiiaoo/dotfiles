@@ -1,0 +1,16 @@
+"-----------------------------
+" # keymap
+"-----------------------------
+call denite#custom#map(
+\   'normal',
+\   '<Esc>',
+\   '<denite:quit>',
+\   'noremap',
+\)
+
+call denite#custom#map(
+\   'insert',
+\   '<Esc>',
+\   '<denite:enter_mode:normal>',
+\   'noremap',
+\)

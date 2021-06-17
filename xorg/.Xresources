@@ -1,0 +1,58 @@
+!-----------------------------
+! # rxvt-unicode
+!-----------------------------
+URxvt*termName : xterm-256color
+URxvt*depth : 24
+URxvt*scrollBar : false
+URxvt*fading : 0
+
+URxvt*font : xft:Consolas:Regular:size=11, xft:Ricty:Regular:size=11
+URxvt*internalBorder: 15
+URxvt*lineSpace : 2
+URxvt*letterSpace : 0
+
+URxvt*perl-ext-common : xim-onthespot
+URxvt*preeditType : OnTheSpot
+
+!-----------------------------
+! # color theme (hybrid)
+!-----------------------------
+#define BG_COLOR  #232C31
+#define FG_COLOR  #C5C8C6
+#define N_BLACK   #2D3C46
+#define B_BLACK   #425059
+#define N_RED     #A54242
+#define B_RED     #CC6666
+#define N_GREEN   #8C9440
+#define B_GREEN   #B5BD68
+#define N_YELLOW  #DE935F
+#define B_YELLOW  #F0C674
+#define N_BLUE    #5F819D
+#define B_BLUE    #81A2BE
+#define N_MAGENTA #85678F
+#define B_MAGENTA #B294BB
+#define N_CYAN    #5E8D87
+#define B_CYAN    #8ABEB7
+#define N_WHITE   #6C7A80
+#define B_WHITE   #C5C8C6
+
+*background : BG_COLOR
+*foreground : FG_COLOR
+
+*color0 : N_BLACK
+*color1 : N_RED
+*color2 : N_GREEN
+*color3 : N_YELLOW
+*color4 : N_BLUE
+*color5 : N_MAGENTA
+*color6 : N_CYAN
+*color7 : N_WHITE
+*color8 : B_BLACK
+*color9 : B_RED
+
+*color10 : B_GREEN
+*color11 : B_YELLOW
+*color12 : B_BLUE
+*color13 : B_MAGENTA
+*color14 : B_CYAN
+*color15 : B_WHITE
