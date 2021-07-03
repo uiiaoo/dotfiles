@@ -16,9 +16,8 @@ call dein#begin($DEINBASE, expand('<sfile>'))
 
 call dein#load_toml($DEINTOML . '/common.toml'      , {'lazy': 0})
 call dein#load_toml($DEINTOML . '/common_lazy.toml' , {'lazy': 1})
+call dein#load_toml($DEINTOML . '/neovim.toml'      , {'lazy': 1})
 call dein#load_toml($DEINTOML . '/filetype.toml'    , {'lazy': 1})
-call dein#load_toml($DEINTOML . '/vim.toml'         , {'lazy': 1, 'if': !has('nvim')})
-call dein#load_toml($DEINTOML . '/neovim.toml'      , {'lazy': 1, 'if':  has('nvim')})
 
 call dein#end()
 
