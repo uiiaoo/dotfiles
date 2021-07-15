@@ -21,6 +21,8 @@ colors
 #-----------------------------
 # # history
 #-----------------------------
+HISTSIZE=100
+
 setopt hist_find_no_dups
 setopt hist_ignore_space
 setopt hist_no_store
@@ -49,6 +51,11 @@ zstyle ':completion:*' menu select
 #-----------------------------
 # # prompt
 #-----------------------------
+PROMPT='
+%B%F{blue}[%D{%H:%M}] %n @ %m
+> %d %f%b
+%B%# %b'
+
 function reset_prompt_and_accept_line()
 {
     zle .reset-prompt
